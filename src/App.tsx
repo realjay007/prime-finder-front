@@ -3,21 +3,14 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <input type="number" placeholder="Enter number" className="input"  />
+        <button>Submit</button>
+        <h1 className="inactive">RESULT</h1>
+        {/* <h1 className="active">RESULT</h1> */}
       </header>
     </div>
   );
