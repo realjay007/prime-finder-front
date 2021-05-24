@@ -1,0 +1,62 @@
+.App {
+	text-align: center;
+  }
+  
+  .App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+  }
+  
+  .App-link {
+	color: #61dafb;
+  }
+  
+  input {
+	width: 360px;
+	height: 60px;
+	background-color: #3e4450;
+	border: none;
+	outline: none;
+	padding: 0 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	color: white;
+	font-size: 20px;
+  }
+  
+  input::placeholder {
+	color: white;
+  }
+  
+  button {
+	width: 360px;
+	height: 60px;
+	background-color: #246dff;
+	border: none;
+	outline: none;
+	padding: 0 20px;
+	border-radius: 10px;
+	color: white;
+	cursor: pointer;
+	font-size: 20px;
+  }
+  
+  h1 {
+	font-size: 70px;
+  }
+  
+  .active {
+	opacity: 1;
+  }
+  
+  .inactive {
+	opacity: 0.05;
+  }
+  
