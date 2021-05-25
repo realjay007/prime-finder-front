@@ -1,0 +1,5 @@
+# Build application
+yarn && yarn run build
+
+# Upload to remote server
+rsync -azP --delete ./build/ realjay:/projects/prime-finder/frontend
