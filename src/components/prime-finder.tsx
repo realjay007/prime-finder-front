@@ -40,14 +40,15 @@ export default class PrimeFinder extends Component<{}, State> {
 		const { loading } = this.state;
 
 		return (
-			<div className="App">
-				<header className="App-header">
+			<div className="prime-finder">
+				<h3 className="prime-finder__title">Find highest prime number lower than input number</h3>
+				<div className="prime-finder__body">
 					<input type="number" placeholder="Enter number" className="input" min="3" onChange={this.onInputChange} />
 					<button onClick={this.onSubmit}>
 						{loading ? (<Loader color="#fff" />) : 'Submit'}
 					</button>
 					{this.renderResult()}
-				</header>
+				</div>
 			</div>
 		);
 	}
